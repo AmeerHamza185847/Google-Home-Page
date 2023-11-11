@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+/* body{
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+/* navbar styling starts here */
+#navbar{
+    padding: 1em 0.5em;
+}
+
+#navbar >ul>li{
+    text-align: center;
+    padding: 0.3em 0em;
+}
+
+#navbar >ul>li>a{
+    color: #515252;
+    font-size: 0.9em;
+}
+
+#navbar >ul{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1em;
+    margin-right: 1em;
+}
+
+.menu_bg{
+    width: 1.8em;
+    height: 1.3em;
+}
+
+.menu_button{
+    width: 1.4em;
+}
+    /* hover */
+.menu_bg:hover{
+    background-color: #CDCED0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile_bg{
+    width: 1.8em;
+    height: 1.3em;
+}
+.profile_button{
+    width: 1.4em;
+    border-radius: 50%;
+}
+
+    /* hover */
+    .profile_bg:hover{
+        background-color: #CDCED0;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+#navbar >ul>li:hover{
+    text-decoration: underline;
+}
+
+/* navbar styling ends here */
+
+input::placeholder{
+    padding-left: 0.9em;
+    font-size: 1.2em;
+}
+
+
+#google_logo{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6.5em;
+    /* align-content: center; */
+}
+
+input{
+    width: 35em;
+    height: 3.5em;
+    padding-left: 3em;
+    border-radius: 5em;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 0 5px rgb(170, 162, 162);
+}
+input:focus{
+    outline: none;
+}
+
+form{
+    position: relative;
+}
+
+.Google_image{
+    margin-bottom: 2.2em;
+}
+
+.Search_image{
+    width: 1.2em;
+    position: absolute;
+    top: 0.9em;
+    left: 1em;
+}
+
+.Mice_image{
+    width: 1.6em;
+    position: absolute;
+    top: 0.7em;
+    left: 27em;
+    cursor: pointer;
+}
+
+.Camera_image{
+    width: 1.6em;
+    position: absolute;
+    top: 0.7em;
+    left: 29em;
+    cursor: pointer;
+} 
+
+/* Chrome Customization button */
+.buttons{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Customize_button{
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    width: 13em;
+    height: 2.5em;
+    background-color: rgba(178, 218, 241, 0.781);
+    border: none;
+    outline: none;
+    border-radius: 2em;
+}
+.Customize_button:hover{
+    background-color: #e6e3e3;
+}
+
+/* styling for different screen sizes */
+
+@media (max-width: 600px) {
+    input{
+        width: 25em;
+        height: 3.5em;
+        padding-left: 3em;
+        border-radius: 5em;
+        border: 1px solid #d3d3d3;
+        box-shadow: 0 0 5px rgb(170, 162, 162);
+    }
+    input:focus{
+        outline: none;
+    }
+    
+    .Search_image{
+        width: 1.2em;
+        position: absolute;
+        top: 0.9em;
+        left: 1em;
+    }
+    
+    .Mice_image{
+        width: 1.6em;
+        position: absolute;
+        top: 0.7em;
+        left: 19em;
+        cursor: pointer;
+    }
+    
+    .Camera_image{
+        width: 1.6em;
+        position: absolute;
+        top: 0.7em;
+        left: 21em;
+        cursor: pointer;
+    } 
+
+    input::placeholder{
+        padding-left: 0.9em;
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 422px) {
+    input{
+        width: 20em;
+        height: 3.5em;
+        padding-left: 3em;
+        border-radius: 5em;
+        border: 1px solid #d3d3d3;
+        box-shadow: 0 0 5px rgb(170, 162, 162);
+    }
+
+    .Mice_image{
+        width: 1.6em;
+        position: absolute;
+        top: 0.7em;
+        left: 15em;
+        cursor: pointer;
+    }
+    
+    .Camera_image{
+        width: 1.6em;
+        position: absolute;
+        top: 0.7em;
+        left: 17em;
+        cursor: pointer;
+    } 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
